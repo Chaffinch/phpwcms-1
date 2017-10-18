@@ -1467,4 +1467,4 @@ $BL['be_cnt_attribute_id'] = 'CSS id';
 $BL['be_cnt_avoid_duplicates'] = 'Pozwalaj tylko na unikalne wartości';
 $BL['be_not_set'] = 'Nie ustawiony';
 $BL['be_licensed_under_GPL'] = 'Na licencji GPL.';
-$BL['be_extensions_copyright'] = 'Rozszerzenia są chronione prawami autorskimi ich właścicieli.';
+$BL['be_extensions_copyright'] = 'Rozszerzenia są chronione prawami autorskimi ich właścicieli.'; 
