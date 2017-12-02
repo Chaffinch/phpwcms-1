@@ -8,7 +8,7 @@
  * @link http://www.phpwcms.org
  *
  **/
-// Language: Polish, Language Code: pl UTF-8 for ver.1.9.0-beta.8 (2017/10/18, 549)
+// Language: Polish, Language Code: pl UTF-8 for ver.1.9.0-rc.2 (2017/11/29, 549)
 //Zięba Bogusław http://www.krynica.malopolska.pl
 // please use HTML safe strings ONLY,neccessary to reduce processing time
 // normal line break:    '&#13;', JavaScript Linebreak: '\n'
@@ -317,7 +317,7 @@ $BL['be_msg_newmsgtitle'] = 'napisz nową wiadomość';
 $BL['be_msg_err'] = 'błąd podczas wysyłania wiadomości';
 $BL['be_msg_sendto'] = 'wyślij wiadomość do';
 $BL['be_msg_available'] = 'lista dostęnych odbiorców';
-$BL['be_msg_all'] = 'Wyślij widomość do wszystkich wybranych Odbiorców';
+$BL['be_msg_all'] = 'Wyślij wiadomość do wszystkich wybranych Odbiorców';
 
 // message.subscription.tmpl.php
 $BL['be_newsletter_title'] = 'Subskrypcja wiadomości o nowościach';
@@ -335,7 +335,7 @@ $BL['be_admin_usr_err2'] = 'Nazwa użytkownika nie może być pusta';
 $BL['be_admin_usr_err3'] = 'Hasło użytkownika nie może być puste';
 $BL['be_admin_usr_err4'] = "Adres email jest nieprawidłowy";
 $BL['be_admin_usr_err'] = 'Błąd';
-$BL['be_admin_usr_mailsubject'] = 'Witajcie w systemie zarządzania phpwcms';
+$BL['be_admin_usr_mailsubject'] = 'Witaj w systemie zarządzania phpwcms';
 $BL['be_admin_usr_mailbody'] = "WITAJ W SYSTEMIE ZARZĄDZANIA PHPWCMS\n\n    użytkownik: {LOGIN}\n    hasło: {PASSWORD}\n\n\nPrzez tą stronę możesz się zalogować: {SITE}\n\nphpwcms admin\n ";
 $BL['be_admin_usr_title'] = 'Dodaj nowe konto użytkownika';
 $BL['be_admin_usr_realname'] = 'Prawdziwe imię';
@@ -351,7 +351,7 @@ $BL['be_admin_usr_button'] = 'Zapisz dane użytkownika';
 $BL['be_admin_usr_etitle'] = 'Edycja konta użytkownika';
 $BL['be_admin_usr_emailsubject'] = 'Dane konta - phpwcms - zostały zmienione';
 $BL['be_admin_usr_emailbody'] = "KONTO UŻYTKOWNIKA W PHPWCMS ZOSTAŁO ZMIENIONE \n\n    Nazwa użytkownika: {LOGIN}\n    Hasło: {PASSWORD}\n\n\nPrzez tą stronę możesz się zalogować:: {SITE}\n\nphpwcms admin\n ";
-$BL['be_admin_usr_passnochange'] = '[NIE ZMIENIONO - PODAJ PRAWIDŁOW HASŁO]';
+$BL['be_admin_usr_passnochange'] = '[NIE ZMIENIONO - PODAJ PRAWIDŁOWE HASŁO]';
 $BL['be_admin_usr_ebutton'] = 'Uaktualnij dane użytkownika';
 
 // admin.listuser.tmpl.php
@@ -558,6 +558,7 @@ $BL['be_cnt_default'] = 'Domyślny';
 $BL['be_cnt_left'] = 'lewo';
 $BL['be_cnt_center'] = 'środek';
 $BL['be_cnt_right'] = 'prawo';
+$BL['be_cnt_buttontext'] = 'Tekst&nbsp;przycisku';
 $BL['be_cnt_successtext'] = 'Tekst&nbsp;sukcesu';
 $BL['be_cnt_regmail'] = 'Zarejestr.email';
 $BL['be_cnt_logoffmail'] = 'Wyłącz.email';
@@ -804,6 +805,8 @@ $BL['be_ftrash_delallfiles'] = 'Usuń wszystkie pliki z kosza';
 // added: 16-08-2004
 $BL['be_subnav_msg_importsubscribers'] = 'Import subskrybentów z pliku CSV';
 $BL['be_newsletter_importtitle'] = 'Importuj Subskrybentów Nowości';
+$BL['be_newsletter_entriesfound'] = 'znalezionych wpisów';
+$BL['be_newsletter_foundinfile'] = 'w pliku';
 $BL['be_newsletter_addresses'] = 'Adresy';
 $BL['be_newsletter_csverror'] = 'Importowany plik CSV jest niepoprawny!';
 $BL['be_newsletter_addressesadded'] = 'Adresy dodano.';
@@ -814,7 +817,7 @@ $BL['be_newsletter_shouldbe2'] = 'Ale możesz wybrać swój własny znak rozdzie
 $BL['be_newsletter_sample'] = 'Przykład';
 $BL['be_newsletter_selectCSV'] = 'Wybierz plik CSV';
 $BL['be_newsletter_delimeter'] = 'Znak rozdzielający';
-$BL['be_newsletter_importCSV'] = 'Importuj plik';
+$BL['be_newsletter_importCSV'] = 'Importuj plik CSV';
 
 // added: 24-08-2004
 $BL['be_admin_struct_orderarticle'] = 'Kolejność przydzielona artykułom';
@@ -858,6 +861,8 @@ $BL['be_date_week'] = 'Tydzień';
 $BL['be_date_weeks'] = 'Tygodnie';
 $BL['be_date_month'] = 'Miesiąc';
 $BL['be_date_months'] = 'Miesiące';
+$BL['be_off'] = 'Wył.';
+$BL['be_on'] = 'Wł.';
 $BL['be_cache'] = 'Pamięć podręczna';
 $BL['be_cache_timeout'] = 'Czas wygaśn.';
 
@@ -925,7 +930,7 @@ $BL['be_cnt_field'] = array(
                 "submit"=>'Przycisk wysyłający',
                 "reset"=>'Przycisk resetujący',
                 "break"=>'Przerwa',
-                "breaktext"=> 'Tekst pomiędzy',
+    		"breaktext" => 'Między tekstem',
                 "special"=>'Tekst (specjalny)',
                 "captchaimg"=>'Obraz captcha',
                 "captcha"=>'Kod captcha',
@@ -972,7 +977,6 @@ $BL['be_func_content_no_cut'] = "Nie można wyciąć treści artykułu!";
 $BL['be_func_content_copy'] = 'Kopiuj treść artykułu';
 $BL['be_func_content_no_copy'] = "Nie można skopiować treści artykułu!";
 $BL['be_func_content_paste_cancel'] = 'Anuluj zmiany';
-
 $BL['be_cnt_move_deleted'] = 'Skasuj usunięte pliki';
 $BL['be_cnt_move_deleted_msg'] = 'Czy na pewno chcesz przesunąć wszystkie \noznaczone pliki do specjalnego folderu?  \n';
 
@@ -999,6 +1003,7 @@ $BL['be_article_morelink'] = 'Odnośnik [więcej...]';
 
 $BL['be_ctype_filelist1'] = 'Lista plików pro';
 
+$BL['be_cnt_fpro_usecaption'] = 'użyj centrum plików &quot;'.$BL['be_ftptakeover_longinfo'].'&quot;';
 $BL['be_admin_keywords'] = 'Słowa kluczowe';
 $BL['be_admin_keywords_key'] = 'SŁOWO KLUCZOWE';
 $BL['be_admin_keywords_err'] = 'Wstaw unikalne SŁOWO KLUCZOWE o nazwie';
@@ -1086,7 +1091,6 @@ $BL['be_cnt_delete_duplicates'] = 'Usuń duplikaty';
 $BL['be_cnt_new_recipient'] = 'Dodaj odbiorcę';
 
 $BL['be_cnt_newsletter_prepare'] = 'Biuletyn aktywny';
-$BL['be_cnt_queued'] = 'Oczekających';
 $BL['be_cnt_newsletter_prepare1'] = 'Wszyscy odbiorcy będą przyjęci do kolejki wysyłania';
 $BL['be_cnt_newsletter_prepare2'] = 'Kolejka wysyłania została zaktualizowana&#8230;';
 
@@ -1108,6 +1112,7 @@ $BL['be_longdatetime'] = 'd.m.Y H:i:s';
 $BL['be_confirm_sending'] = 'Potwierdź wysyłanie';
 $BL['be_confirm_text'] = 'Tak, wyślij biuletyn do wszystkich odbiorców!';
 
+$BL['be_cnt_queued'] = 'kolejkowanie';
 $BL['be_last_sending'] = 'ostatnia wysyłka';
 $BL['be_last_edited'] = 'ostatnio zmieniane';
 $BL['be_total'] = 'łącznie';
@@ -1293,7 +1298,6 @@ $BL['js_lib'] = 'Biblioteka JS';
 $BL['js_lib_alwaysload'] = 'zawsze ładuj';
 $BL['frontendjs_load'] = 'ładuj frontend.js (więcej z przyczyn historycznych)';
 $BL['googleapi_load'] = 'użyj CDN';
-
 $BL['fancyupload_clear_list'] = 'Wyczyść Listę';
 $BL['fancyupload_file_uploaded'] = 'Plik został przesłany';
 $BL['fancyupload_file_error'] = 'Wystąpił błąd';
@@ -1332,7 +1336,6 @@ $BL['file_actions_msg_error'] = 'Nie wybrano plików';
 $BL['file_actions_msg_user'] = 'Pliki zostały pomyślnie przypisany do nowego użytkownika';
 
 $BL['be_imagefiles_as_gallery'] = 'utwórz galerię z plików graficznych';
-
 $BL['be_link'] = 'Link';
 $BL['be_links'] = 'Linki';
 $BL['be_redirect'] = 'Przekierowanie';
@@ -1468,3 +1471,6 @@ $BL['be_cnt_avoid_duplicates'] = 'Pozwalaj tylko na unikalne wartości';
 $BL['be_not_set'] = 'Nie ustawiony';
 $BL['be_licensed_under_GPL'] = 'Na licencji GPL.';
 $BL['be_extensions_copyright'] = 'Rozszerzenia są chronione prawami autorskimi ich właścicieli.';
+
+$BL['be_password_show'] = 'Pokaż hasło';
+$BL['be_password_hide'] = 'Ukryj hasło';
